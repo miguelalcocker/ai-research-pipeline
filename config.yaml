@@ -1,0 +1,149 @@
+apis:
+  arxiv:
+    base_url: http://export.arxiv.org/api/query
+    enabled: false
+    rate_limit_delay: 3.0
+  openalex:
+    base_url: https://api.openalex.org
+    email: your.email@example.com
+    max_retries: 3
+    rate_limit_delay: 0.1
+    timeout: 30
+  semantic_scholar:
+    base_url: https://api.semanticscholar.org/graph/v1
+    enabled: false
+    rate_limit_delay: 1.0
+data_collection:
+  core_concepts:
+  - artificial intelligence
+  - machine learning
+  - deep learning
+  - neural network
+  - graph neural network
+  - reinforcement learning
+  - natural language processing
+  - computer vision
+  - generative ai
+  - transformer
+  - federated learning
+  - explainable ai
+  - quantum machine learning
+  - neural architecture search
+  end_year: 2024
+  max_papers: 100
+  min_papers: 50
+  start_year: 2019
+geocoding:
+  cache_file: geocode_cache.json
+  enabled: true
+output:
+  csv_separator: ','
+  date_format: '%Y-%m-%d'
+  encoding: utf-8
+  max_abstract_length: 500
+quality:
+  breakthrough_paper_percentile: 95
+  min_abstract_length: 100
+  min_title_length: 10
+  normalize_citations_by_year: true
+  prolific_author_threshold: 10
+random_seed: 42
+subfield_keywords:
+  Computer Vision:
+  - computer vision
+  - image recognition
+  - object detection
+  - semantic segmentation
+  - image classification
+  - convolutional neural
+  - vision transformer
+  Explainable AI:
+  - explainable ai
+  - interpretable
+  - xai
+  - transparency
+  - model explanation
+  - feature importance
+  Federated Learning:
+  - federated learning
+  - distributed learning
+  - privacy-preserving
+  - differential privacy
+  Generative AI:
+  - generative adversarial
+  - gan
+  - diffusion model
+  - variational autoencoder
+  - vae
+  - stable diffusion
+  - image generation
+  Graph Neural Networks:
+  - graph neural network
+  - gnn
+  - graph convolution
+  - message passing
+  - graph attention
+  - spectral graph
+  Natural Language Processing:
+  - natural language processing
+  - nlp
+  - language model
+  - bert
+  - gpt
+  - text generation
+  - machine translation
+  - sentiment analysis
+  Neural Architecture Search:
+  - neural architecture search
+  - nas
+  - automl
+  - architecture optimization
+  Quantum ML:
+  - quantum machine learning
+  - quantum neural
+  - quantum computing
+  - quantum algorithm
+  Reinforcement Learning:
+  - reinforcement learning
+  - q-learning
+  - policy gradient
+  - deep q network
+  - actor-critic
+  - multi-agent
+  - markov decision
+  Transformer Architecture:
+  - transformer
+  - attention mechanism
+  - self-attention
+  - multi-head attention
+  - bert
+  - gpt
+  - vision transformer
+venue_tiers:
+  A:
+  - ECCV
+  - ICCV
+  - KDD
+  - WWW
+  - SIGIR
+  - NAACL
+  - ICRA
+  - IROS
+  - UAI
+  A*:
+  - NeurIPS
+  - ICML
+  - ICLR
+  - CVPR
+  - AAAI
+  - IJCAI
+  - ACL
+  - EMNLP
+  - Nature
+  - Science
+  B:
+  - COLING
+  - WACV
+  - AISTATS
+  - CoRL
+  - ICDM
