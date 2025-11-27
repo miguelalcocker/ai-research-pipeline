@@ -30,8 +30,8 @@ data_collection:
   - quantum machine learning
   - neural architecture search
   end_year: 2024
-  max_papers: 100
-  min_papers: 50
+  max_papers: 15000
+  min_papers: 10000
   start_year: 2019
 geocoding:
   cache_file: geocode_cache.json
